@@ -1,17 +1,17 @@
 var suggestions = function(){
     return {
         defaultOptions:{
-            deferTableUpdatesAtRows: 5000,
+            deferTableUpdatesAtRows: 50000,
             keepRunning: false,
-            maxQueueDisplay: 5000,
+            maxQueueDisplay: 50000,
             country: "",
             filterNegative: "",
             filterPositive: "",
             lang: "",
-            prefixes: [" ", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "y", "x", "y", "z", "how", "which", "why", "where", "who", "when", "are", "what"],
-            rateLimit: 750,
+            prefixes: [" ", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "y", "x", "y", "z", "how", "which", "why", "where", "who", "when", "are", "what", "best", "buy", "review", "cheap", "cheapest", "compare", "comparison", "tutorial", "discount", "guide", "how", "hot to", "train", "training", "inexpensive", "top", "technique", "bargain", "budget", "build", "coupon", "discount", "easy", "quick", "fast", "simple", "explain", "expensive", "student", "fix", "for students", "guide", "how", "how do", "how can", "how does", "improve", "install", "instructions", "learn", "learning", "tutorial", "review", "secret", "simple", "solve", "step by step", "study", "technique", "techniques", "tip", "tips", "unique", "unlock", "where can I"],
+            rateLimit: 75000,
             service: "google",
-            suffixes: [" ", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "y", "x", "y", "z", "like", "for", "without", "with", "versus", "vs", "to", "near", "except", "has"]
+            suffixes: [" ", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "y", "x", "y", "z", "how", "which", "why", "where", "who", "when", "are", "what", "best", "buy", "review", "cheap", "cheapest", "compare", "comparison", "tutorial", "discount", "guide", "how", "hot to", "train", "training", "inexpensive", "top", "technique", "bargain", "budget", "build", "coupon", "discount", "easy", "quick", "fast", "simple", "explain", "expensive", "student", "fix", "for students", "guide", "how", "how do", "how can", "how does", "improve", "install", "instructions", "learn", "learning", "tutorial", "review", "secret", "simple", "solve", "step by step", "study", "technique", "techniques", "tip", "tips", "unique", "unlock", "where can I"]
         },
 
         services:{
