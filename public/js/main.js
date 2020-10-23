@@ -136,10 +136,10 @@ var KWS = function(){
 
             this.hashMapInputs[search] = true;
 
-            // sort so the shortest is first in the queue TODO add option?
-            // retList.sort(function (a, b) {
-            //   return a.length - b.length;
-            // });
+            //sort so the shortest is first in the queue TODO add option?
+            retList.sort(function (a, b) {
+              return a.length - b.length;
+            });
 
             function addPrefix(s,prefix){
                 return prefix+' '+s;
@@ -504,7 +504,7 @@ var KWS = function(){
             // setup table
             this.table = $('#outtable').DataTable({
                 pageLength: 25,
-                "lengthMenu": [ 10, 25, 50, 75, 100,800],
+                "lengthMenu": [ 10, 25, 50, 75, 100,800,2000],
                 dom:
                 "<'row'<'col-sm-5'B><'col-sm-7'<'pull-right'p>>>" +
                 "<'row'<'col-sm-8'i><'col-sm-4'<'pull-right'f>>>" +
